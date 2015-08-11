@@ -100,7 +100,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 			},true);
 
 			if ( actived ) {
-        		chrome.tabs.executeScript(tab.id, { file: "../js/inject.js", runAt: "document_start"});
+        		chrome.tabs.executeScript(tab.id, { file: "js/inject.js", runAt: "document_start"});
         	}
 
 		};
