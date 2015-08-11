@@ -1,0 +1,49 @@
+//////////////////////////////////////////
+// 			   APPENDED DIV				//
+//////////////////////////////////////////
+
+.pinWrapper .appendedDiv {
+	position: absolute; 
+	top: 60px; 
+	right: 0;
+	text-align: center;
+	max-width: 0;
+	overflow: hidden;
+	z-index: 10;
+	-webkit-transition: max-width 0.5s;
+	background: rgba(0, 0, 0, 0.7);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.pinWrapper .appendedDiv a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.pinWrapper .appendedDiv img {
+	width: 20px;
+	height: 20px;
+}
+
+.pinWrapper:hover .appendedDiv {
+	max-width: 100px;
+}
+
+.appendedInfo {
+	position: absolute;
+/*	top: -20px;
+	left: 20px;*/
+	top: 0;
+	left: 0;
+	height: 10px;
+	padding: 5px 15px;
+	font-size: 10px;
+	font-weight: bold;
+	background: black;
+	color: white;
+	border-bottom-right-radius: 3px;
+}

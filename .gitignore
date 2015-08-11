@@ -1,0 +1,23 @@
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# NodeJs Related #
+node_modules
+
+# Gulp Related #
+.sublime-gulp.cache
+
+# Sublime/Atom Related #
+sftp-config.json
+deployment-config.json
+
+# Compiled Sources #
+css/
+js/

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pinterest Enhanced - Options</title>
+	<link href="css/options.css" rel="stylesheet">
+	<link href="vendor/FontAwesome/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="sidebar">
+		<h1 class="title">
+			Pinterest <br>Enhanced
+		</h1>
+		<ul class="menu">
+			<li class="selected"><a href="#settings">Settings</a></li>
+			<li><a href="#changelog">Changelog</a></li>
+			<li><a href="#credits">Credits &amp; info</a></li>
+		</ul>
+		<div class="cta">
+			<div> <a href="http://goo.gl/0FnWjl" target="_blank"><span class="fa fa-star"></span> Rate this extension</a> </div>
+			<div><a href="http://goo.gl/gHLzV7" target="_blank"><span class="fa fa-bug"></span> Report a Bug</a></div>
+			<div class="share">
+				Share this extension on <br>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://chrome.google.com/webstore/detail/pinterest-enhanced/egpachgbfnbpkceigfpcpicekmiehame" class="fa fa-facebook-square" target="_blank"></a>
+				<a href="https://twitter.com/home?status=Pinterest%20Grid%20Chrome%20Extension%20-%20http://goo.gl/6VnQTp" class="fa fa-twitter-square" target="_blank"></a>
+				<a href="https://pinterest.com/pin/create/button/?url=https://chrome.google.com/webstore/detail/pinterest-enhanced/egpachgbfnbpkceigfpcpicekmiehame&media=https://lh4.googleusercontent.com/yBTgyybqwlNG66IPaM-55LS_S10qbtwKNyD1zAyHLQNDUCcRIwES_58eOxOvKOgxEjIH_KbdaQ=s640-h400-e365-rw&description=Pinterest%20Enhanced%20Chrome%20Extension" class="fa fa-pinterest-square" target="_blank"></a>
+				<a href="https://plus.google.com/share?url=https://chrome.google.com/webstore/detail/pinterest-enhanced/egpachgbfnbpkceigfpcpicekmiehame" class="fa fa-google-plus-square" target="_blank"></a>
+				<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://chrome.google.com/webstore/detail/pinterest-enhanced/egpachgbfnbpkceigfpcpicekmiehame&title=Pinterest%20Enhanced%20Chrome%20Extension&summary=&source=" class="fa fa-linkedin-square" target="_blank"></a>
+		</div>
+		</div>
+	</div>
+
+	<section id="settings">
+		<header>
+			<h1 class="section_title">Settings</h1>
+		</header>
+		<table>
+			<tr>
+				<th>
+					<label for="actived">Pinterest Enhanced Active</label>
+				</th>
+				<td>
+					<input type="checkbox" id="actived"> 
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="pinFixed">Fixed Height Pins</label>
+				</th>
+				<td>
+					<input type="checkbox" id="pinFixed">
+				</td>
+			</tr>
+			<tr>
+				<th>
+					<label for="pinHeight">Pin Box Size</label>
+				</th>
+				<td>
+					<select id="pinHeight">
+						<option value="300">Small</option>
+						<option value="400">Normal</option>
+						<option value="600">Large</option>
+					</select>
+					
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Image positioning and animation
+				</th>
+				<td>
+					<input type="checkbox" id="pinScroll"> <label for="pinScroll">Scroll long images inside pin box</label> <br>
+					<input type="checkbox" id="pinCenter"> <label for="pinCenter">Center small images into pin box</label> <br>
+					<input type="checkbox" id="pinDesc"> <label for="pinDesc">Show pin description only on mouse over</label>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Extra features
+				</th>
+				<td>
+					<input type="checkbox" id="pinExtra"> <label for="pinExtra">Add search and download buttons to pins.</label> <br>
+					<input type="checkbox" id="pinNav"> <label for="pinNav">Pin navigation with arrow keys.</label>
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Notifications
+				</th>
+				<td>
+					<input type="checkbox" id="pinNotify"> <label for="pinNotify">Notify me on Pinterest Enhanced updates</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right">
+					<button class="save" id="save"></button>	
+				</td>
+			</tr>
+		</table>
+	</section>
+	<section id="changelog">
+		<header>
+			<h1 class="section_title">Changelog</h1>
+		</header>
+		<h3 class="new">Version 1.4 <small>(February 07, 2015)</small></h3>
+		<ul>
+			<li><strong>Bugfix:</strong> It works again!</li>
+			<li><strong>Feature:</strong> <i>Fixed Height Pins</i> and <i>Extra Features</i> separated: now you can disable one or both separately.</li>
+		</ul>
+		<h3>Version 1.3.5 <small>(October 01, 2014)</small></h3>
+		<ul>
+			<li><strong>Bugfix:</strong> Now download button starts the download insteed open a new tab.</li>
+			<li><strong>Bugfix:</strong> Fixed "Notify me on Pinterest Enhanced updates" option's bug.</li>
+		</ul>
+		<small>Thanks for feedbacks, bugs reporting and advices.</small>
+		<h3>Version 1.3 <small>(September 26, 2014)</small></h3>
+		<ul>
+			<li class="beta"><strong>Feature:</strong> Use <span class="underline">left</span> and <span class="underline">right</span> keys to navigate through pins.</li>
+			<li class="beta"><strong>Feature:</strong> Added Download button.</li>
+			<li class="beta"><strong>Feature:</strong> Added Google Image Search button.</li>
+			<li><strong>Feature:</strong> Pin description only on mouse over out of beta.</li>
+			<li><strong>Bugfix:</strong> Fixed height of some elements.</li>
+			<li><strong>Bugfix:</strong> Cleaned up and reorganized the code.</li>
+		</ul>
+		<h3>Version 1.2.5 <small>(September 16, 2014)</small></h3>
+		<ul>
+			<li><strong>Feature:</strong> Option to show pin description only on mouse over</li>
+		</ul>
+		<h3>Version 1.2.1 <small>(September 07, 2014)</small></h3>
+		<ul>
+			<li><strong>Feature:</strong> Option page - initial release</li>
+			<li><strong>Feature:</strong> Added notification on extension update.</li>
+			<li><strong>Feature:</strong> Grant possibility to choose pin size, scolling and centering options.</li>
+			<li><strong>Feature:</strong> Automatic adjustment of scrolling animation speed based on image size.</li>
+			<li><strong>Feature:</strong> Vertical centering of small images into pin box.</li>
+			<li><strong>Bugfix:</strong> Fixed Gif button position.</li>
+			<li><strong>Bugfix:</strong> Now only images longer than pin box will slide.</li>
+			<li><strong>Bugfix:</strong> Fixed "Add a pin" box height.</li>
+			<li><strong>Bugfix:</strong> Changed image scroll animation to linear.</li>
+		</ul>
+		<h3>Version 1.1 <small>(August 22, 2014)</small></h3>
+		<ul>
+			<li><strong>Bugfix:</strong> Fixed "Add a pin" box height.</li>
+		</ul>
+		<h3>Version 1.0 <small>(August 11, 2014)</small></h3>
+		<ul>
+			<li><strong>Feature:</strong> Introduced automatic scolling of images inside pin box on mouse over.</li>
+			<li><strong>Feature:</strong> Styled social boxes like "Friends to follow" in order to hide them except on mouse over.</li>
+			<li><strong>Bugfix:</strong> Fixed Related Pin Info position.</li>
+		</ul>
+	</section>
+	<section id="credits">
+		<header>
+			<h1 class="section_title">Credits &amp; Info</h1>
+		</header>
+		<div class="title">Pinterest Enhanced</div>
+		<div>Designed &amp; developed by Lorenzo Zottar - Copyright &copy; 2014</div>
+		<div class="social">
+			<a href="http://goo.gl/VWSjO3" target="_blank"><span class="fa fa-behance"></span>Check out my works on Behance.net</a> 
+			<a href="http://goo.gl/3EsEQY" target="_blank"><span class="fa fa-twitter"></span>Follow me on Twitter</a>
+			<a href="http://goo.gl/PaQGzk" target="_blank"><span class="fa fa-pinterest"></span>Follow my Pinterest boards</a>
+		</div>
+		<div class="related">
+			<em>Other Chrome Extensions</em>
+			<ul>
+				<li><a href="http://goo.gl/n6tnp5" target="_blank"><img src="img/creative.png" alt="Creative Start"> Creative Start</a></li>
+				<li><a href="http://goo.gl/E2kBIx" target="_blank"><img src="img/webfont.png" alt="webfont|test"> webfont|test</a></li>
+			</ul>
+			
+		</div>
+	</section>
+	<script src="js/options.js"></script>
+</body>
+</html>
