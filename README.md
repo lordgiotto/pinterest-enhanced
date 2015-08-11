@@ -20,8 +20,8 @@ Give it a try :)
 
 Version 1.5 (August 11, 2015)
 
-Removed: Removed Arrow Kyes Navigation through pins due to incompatibility with the new nativa feature of pinterest that provide the same feature.
-Feature:Now Pinterest Enhanced is Open Source on GitHub.
+Removed: Removed Arrow Kyes Navigation through pins due to incompatibility with the new native feature of pinterest that provide the same feature.
+Feature: Now Pinterest Enhanced is Open Source on GitHub.
 Bugfix: Minor improvements.
 
 Version 1.4 (February 07, 2015)
