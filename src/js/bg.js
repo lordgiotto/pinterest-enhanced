@@ -2,7 +2,7 @@
 //				   CONTSNTS 				//
 //////////////////////////////////////////////
 
-var LAST_VERSION = "1.4"
+var LAST_VERSION = "1.5"
 
 var defaults = {
 	"pin_grid" : "ON",
