@@ -44,7 +44,7 @@ var createSourceMap = false;
 
 var sizeOptions = { gzip: true };
 
-var backupFiles = ['**', '!node_modules/**'],
+var backupFiles = ['**', '!node_modules/**', '!node_modules', '!.gitignore', '!README.md', '!src', '!src/**', '!gulpfile.js', '!package.json'],
 	backupDest = '../dist',
 	backupName = '_PinterestEnhnced.zip';
 
@@ -143,7 +143,7 @@ gulp.task('clean', function() {
 // Backup
 // -----------------------------------------------------------------------------
 
-gulp.task('backup', function(){
+gulp.task('dist', function(){
 	var now = new Date();
 	var date = dateFormat(now, "yyyymmdd");
 	console.log(date);
