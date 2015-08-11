@@ -1,7 +1,6 @@
-.item {
-	/*position: static !important;*/
-	/*float: left;*/
-}
+//////////////////////////////////////////
+// 				   MAIN					//
+//////////////////////////////////////////
 
 .pinWrapper, .UserNews, .SearchScopeSelector .gridItem, .FeedUsers  .UserBase.gridItem  {
 	/*height: 350px;*/
@@ -159,9 +158,22 @@
 	top: 50px;
 }
 
-.item.activeItem {
-	border-bottom: 5px solid #cb2027;
-}
+//////////////////////////////////////////
+// 			DEACTIVATED RUELS			//
+//////////////////////////////////////////
+
+// .pinWrapper, .UserNews, .SearchScopeSelector .gridItem, .FeedUsers  .UserBase.gridItem  {
+//	height: 350px;
+// }
+
+// .item {
+	/*position: static !important;*/
+	/*float: left;*/
+// }
+
+// .item.activeItem {
+// 	border-bottom: 5px solid #cb2027;
+// }
 
 // .PinCommentList {
 // 	border: 0 !important;

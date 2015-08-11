@@ -19,5 +19,5 @@ sftp-config.json
 deployment-config.json
 
 # Compiled Sources #
-css/
-js/
+/css/
+/js/
