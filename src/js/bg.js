@@ -2,7 +2,7 @@
 //				   CONTSNTS 				//
 //////////////////////////////////////////////
 
-var LAST_VERSION = "1.5"
+var LAST_VERSION = "1.5.1"
 
 var defaults = {
 	"pin_grid" : "ON",
@@ -134,7 +134,7 @@ function checkUpdated() {
 if ( checkUpdated() ) {
 	var notifyOption = {
 		type : "basic",
-		iconUrl : "icon.png",
+		iconUrl : "img/icon.png",
 		title : "Pinterest Enhanced Updated - " + LAST_VERSION,
 		message : "New version of Pinterest Enhanced installed. ",
 		buttons : [ {title : "See what's new!"}, {title : "Discard"} ],
