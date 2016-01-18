@@ -23,6 +23,12 @@ ___
 
 ### LAST VERSION CHANGELOG
 
+##### Version 1.6 (January 18, 2016)
+
+- Bugfix: Fixed Split Module Layout.
+- Bugfix: Fixed pin link position: now it's a button under like button.
+- Bugfix: Fixed Download an search buttons position.
+
 ##### Version 1.5 (August 11, 2015)
 
 - Removed: Removed Arrow Kyes Navigation through pins due to incompatibility with the new native feature of pinterest that provide the same feature.

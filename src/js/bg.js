@@ -2,7 +2,7 @@
 //				   CONTSNTS 				//
 //////////////////////////////////////////////
 
-var LAST_VERSION = "1.5.2"
+var LAST_VERSION = "1.6"
 
 var defaults = {
 	"pin_grid" : "ON",
@@ -22,7 +22,7 @@ var defaults = {
 
 function toggleStatus() {
 	var status = localStorage["pin_grid"];
-	localStorage["pin_grid"] = (status == "ON") ? "OFF" : "ON";	
+	localStorage["pin_grid"] = (status == "ON") ? "OFF" : "ON";
 }
 
 function getOption(name) {
